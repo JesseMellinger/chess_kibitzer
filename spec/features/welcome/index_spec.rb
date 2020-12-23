@@ -7,8 +7,6 @@ describe 'as a user' do
       
       expect(page).to have_content('Chess.com Leaders')     
   
-      expect(page).to have_selector('results', count: 11)
-
       within(first('.results')) do 
         expect(page).to have_css('.section')
         expect(page).to have_css('.username')
