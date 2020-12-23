@@ -1,25 +1,3 @@
-# README
+# Chess Kibitzer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# chess_kibitzer
+At this stage Chess Kibitzer consumes the Chess.com API and renders the leaders in each category provided.
