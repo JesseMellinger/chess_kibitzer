@@ -1,0 +1,14 @@
+<center>
+<h1>Chess.com Leaders</h1>
+
+<div class="results">
+  <% @leaders.each do |leader| %>
+    <%= content_tag :h2, "Section: #{leader.section.capitalize}", class:"section" %>
+    <%= link_to leader.username, leader.url, class:"username" %><br>
+    <%= image_tag leader.avatar, size: "160x160", alt: "Image of #{leader.username}" %>
+    <%= content_tag :p, "Title: #{leader.title}", class:"title" if leader.title %>
+    <%= content_tag :p, "Score: #{leader.score}", class:"score" %>
+  <% end %>
+</div>
+</center>
+
